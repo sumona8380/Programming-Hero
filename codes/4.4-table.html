@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        caption{
+            margin: 10px;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 5px 10px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <!--
+    table, caption, thead, tr, th, tbody, tr, td,tr, td, tfoot, tr, td, colspan, (table: border-collapse, td-th: border, border-collapse, padding)
+    -->
+
+    <h1>Table</h1>
+    <table>
+        <caption>Employee List</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Post</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Allen</td>
+                <td>Software Engineer</td>
+                <td>80k</td>
+            </tr>
+            <tr>
+                <td>Evans</td>
+                <td>Graphic Designer</td>
+                <td>40k</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total Employee: 2</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

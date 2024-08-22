@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <!--
+    form, label, for, input, id, type, placeholder, fieldset, legend, label, for, input, type="radio/checkbox", name, id, textarea, name, id, cols, rows, input, type="reset/submit", value
+    -->
+    <form action="">
+        <h1>Fill Up The Form</h1>
+        <label for="name">
+            <input id="name" type="text" placeholder="Your name">
+        </label>
+        <label for="phone">
+            <input id="phone" type="number" placeholder="Your Phone Number">
+        </label>
+        <fieldset>
+            <legend>Pick a food:</legend>
+            <label for="burger">
+                <input type="checkbox" name="" id="buerger">burger
+            </label>
+            <label for="pizza">
+                <input type="checkbox" name="" id="pizza">pizza
+            </label>
+            <label for="pasta">
+                <input type="checkbox" name="" id="pasta">pasta
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Pick drinks:</legend>
+            <label for="tea">
+                <input type="radio" name="hot-beverage" id="tea">tea
+            </label>
+            <label for="coffee">
+                <input type="radio" name="hot-beverage" id="cofee">coffee
+            </label>
+            <label for="lemonade">
+                <input type="radio" name="cold-beverage" id="lemonade">lemonade
+            </label>
+            <label for="smoothie">
+                <input type="radio" name="cold-beverage" id="smoothie">smoothie
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Special order:</legend>
+            <textarea name="" id="" cols="50" rows="5"></textarea>
+        </fieldset>
+        <input type="reset">
+        <input type="submit">
+    </form>
+</body>
+</html>
