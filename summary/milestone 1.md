@@ -21,8 +21,8 @@
 
 ### Module 3
 - create a github repository, create git folder & files
-- config email & user, init, add, commit, main branch, remote add origin
-- add, commit, push, github pages
+- config email & user, init, add, commit, main branch, remote add origin, push, github pages
+- add, commit, push
 - common mistakes: go to right folder, remember to add, keep file name index.html, write image path correctly
 - create private repository, add collaborator, fork, clone
 - branch, checkout, set upstream origin, pull request, merge pull request, git pull, conflict
@@ -37,7 +37,8 @@
 - google html5 tags (tutorial republic), google html attributes (w3school)
 
 ### Module 5
-- google font, add links, font-family, font-size, font-weight, span, color, header, nav, ul, li, button, .btn (.btn - border-radius, background-color)
+- google font, add links, font-family, font-size, font-weight, span, color
+- header, nav, ul, li, button, .btn (.btn - border-radius, background-color)
 - (.btn - border-radius, background-color, border, font-size, font-weight, padding), flexbox (display: flex, align-items, justify-content)
 - (header - background-color, background-image: url, background-repeat: no-repeat, background-position: bottom-right)
 - cards (div, img, h3, p), cards (display: flex, gap)
@@ -45,12 +46,14 @@
 
 ### Module 6.5
 - position (static, relative, absolute, fixed, sticky), left, right, top, bottom
-- z-index, :hover, :focus, :visited ::after, ::before, ::first-letter, ::selection, ::placeholder
+- z-index, :hover, :focus, :visited ::after, ::before, ::first-letter, ::first-line ::selection, ::placeholder
 
 # Codes
-- [form]()
-- [background image]()
-- [display vs visibility]()
-- [form]()
-- [table]()
-- [navbar]()
+- [form](https://github.com/sumona8380/Programming-Hero/blob/main/summary/codes/1.form.html)
+- [background image](https://github.com/sumona8380/Programming-Hero/blob/main/summary/codes/2-background-image.html)
+- [display](https://github.com/sumona8380/Programming-Hero/blob/main/summary/codes/2-display.html)
+- [form](https://github.com/sumona8380/Programming-Hero/blob/main/summary/codes/4-form.html)
+- [table](https://github.com/sumona8380/Programming-Hero/blob/main/summary/codes/4-table.html)
+- [navbar](https://github.com/sumona8380/Programming-Hero/blob/main/summary/codes/4-navbar.html)
+- [google font](https://github.com/sumona8380/Programming-Hero/blob/main/summary/codes/5-google-font.html)
+- [font awesome](https://github.com/sumona8380/Programming-Hero/blob/main/summary/codes/5-font-awesome.html)

@@ -1,5 +1,5 @@
 # Course Notes
-- [Milestone 1]()
+- [Milestone 1](https://github.com/sumona8380/Programming-Hero/blob/main/summary/milestone%201.md)
 - [Milestone 2]()
 - [Milestone 3]()
 - [Milestone 4]()
@@ -29,6 +29,4 @@
 13. []()
 
 # Resources
-- HTML:
 - CSS: [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), [Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
-- JavaScript

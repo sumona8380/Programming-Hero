@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container{
+            border: 5px solid black;
+            height: 100px;
+            width: 200px;
+            margin: 20px;
+        }
+        .container > div{
+            height: 60px;
+            width: 100px;
+            color: white;
+        }
+
+        .static{
+            border: 5px solid red;
+        }
+        .static > div {
+            position: static;
+            background-color: red;
+        }
+
+        .relative{
+            border: 5px solid blue;
+        }
+        .relative > div {
+            position: relative;
+            background-color: blue;
+            left: 100px;
+        }
+
+        .absolute{
+            border: 5px solid green;
+        }
+        .absolute > div {
+            position: absolute;
+            background-color: green;
+            left: 100px;
+        }
+
+        .fixed{
+            border: 5px solid grey;
+        }
+        .fixed > div {
+            position: fixed;
+            background-color: grey;
+            left: 100px;
+        }
+
+        .sticky{
+            border: 5px solid black;
+            height: 200px;
+        }
+        .sticky > div {
+            position: sticky;
+            background-color: black;
+            left: 100px;
+            top: 0;
+        }
+
+        /* z-index */
+        .egg{
+            height: 350px; 
+            position: relative; 
+            top: ; 
+            left: 500px;
+            z-index: 2;
+        }
+        .coriander{
+            height: 200px;
+            position: relative;
+            top: ;
+            left: 50px;
+            z-index: 3;
+        }
+        .plate{
+            position: relative;
+            height: 400px; 
+            top: -350px;
+            left: 300px;
+            z-index: 1;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="static container">
+        <div>Position: static (by default)</div>
+    </div>
+
+    <div class="relative container">
+        <div>Position: relative</div>
+    </div>
+
+    <div class="absolute container">
+        <div>Position: absolute</div>
+    </div>
+
+    <div class="fixed container">
+        <div>Position: fixed</div>
+    </div>
+
+    <div class="sticky container">
+        <div>Position: sticky</div>
+    </div>
+
+    <!-- z- index -->
+     <h1>z-index</h1>
+
+    <section>
+        <img class="egg" src="https://i.pinimg.com/originals/03/58/c7/0358c7417483a2a53054ba21f6ec5f2f.png" alt="">
+        
+        <img class="coriander" src="https://png.pngtree.com/png-clipart/20210815/original/pngtree-cilantro-organic-cooking-plant-png-image_6645144.jpg" alt="">
+
+        <img class="plate" src="https://static.vecteezy.com/system/resources/thumbnails/019/882/273/small_2x/empty-black-plate-isolated-on-white-background-png.png" alt="">
+    </section>
+    
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* pseudo class */
+        button{
+            display: block;
+            margin: 10px;
+            height: 50px;
+            width: 100px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        .btn-a:hover a{
+            color: orangered;
+        }
+        .btn-b:visited{
+            color: green;
+        }
+        .btn>input{
+            height: 30px;
+            font-size: 20px;
+        }
+        .btn>input:focus{
+            background-color: blue;
+            color: white;
+        }
+
+        /* pseudo element */
+        h1::after{
+            content: ' ::after';
+            color: lightseagreen;
+        }
+        h1::before{
+            content: '::before ';
+            color: lightgreen;
+        }
+        p::first-letter{
+            font-size: 20px;
+        }
+        .paragraph::first-line{
+            background-color: lightsalmon;
+        }
+        ::selection{
+            background-color: yellow;
+        }
+        ::placeholder{
+            color: red;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <!-- pseudo class -->
+    <div class="btn">
+        <button class="btn-a">
+            <a href="https://www.google.co.uk/">button a</a>
+        </button>
+        <button>
+            <a class="btn-b" href="https://www.google.co.uk/">button b</a>
+        </button>
+        <input type="text">
+    </div>
+
+    <!-- pseudo element -->
+    <div class="element">
+        <h1>heading</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        
+        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consequuntur tempora laboriosam accusantium itaque aspernatur hic id assumenda! Soluta sunt laboriosam nostrum! Culpa facilis itaque nisi natus optio, veniam, amet delectus consequuntur eveniet, possimus beatae placeat? Dolorum praesentium expedita sapiente non soluta eveniet nemo aliquam veniam quod, itaque nam quis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga doloribus quae magni expedita quis numquam aut odit eos inventore reprehenderit.</p>
+
+        <input type="text" placeholder="text here">
+    </div>
+</body>
+</html>
